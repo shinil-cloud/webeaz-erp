@@ -1,0 +1,35 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "doc.status==\"Completed\"",
+ "creation": "2022-02-09 11:45:31.896681",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "ToDo",
+ "enabled": 1,
+ "event": "Save",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Hello <br><br>\n\nStatus of task {{doc.subject}} is {{doc.status}} by {{doc.owner}} Check It.",
+ "modified": "2022-02-09 17:05:23.733213",
+ "modified_by": "Administrator",
+ "module": "Buying",
+ "name": "{{doc.subject}} is Completed Stage",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "",
+   "receiver_by_role": "Projects Manager"
+  },
+  {
+   "receiver_by_role": "Administrator"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "WebEaz HR",
+ "sender_email": "wzerpeaz@gmail.com",
+ "subject": "{{doc.subject}} is Completed ",
+ "value_changed": "status"
+}
